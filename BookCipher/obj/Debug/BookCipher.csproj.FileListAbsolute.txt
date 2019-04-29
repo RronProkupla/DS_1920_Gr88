@@ -18,3 +18,13 @@ Z:\BookCipher\BookCipher\obj\Debug\BookCipher.csproj.GenerateResource.cache
 Z:\BookCipher\BookCipher\obj\Debug\BookCipher.csproj.CoreCompileInputs.cache
 Z:\BookCipher\BookCipher\obj\Debug\BookCipher.exe
 Z:\BookCipher\BookCipher\obj\Debug\BookCipher.pdb
+Z:\DS_1920_Gr88\BookCipher\bin\Debug\BookCipher.exe.config
+Z:\DS_1920_Gr88\BookCipher\bin\Debug\BookCipher.exe
+Z:\DS_1920_Gr88\BookCipher\bin\Debug\BookCipher.pdb
+Z:\DS_1920_Gr88\BookCipher\obj\Debug\BookCipher.csprojAssemblyReference.cache
+Z:\DS_1920_Gr88\BookCipher\obj\Debug\BookCipher.Form1.resources
+Z:\DS_1920_Gr88\BookCipher\obj\Debug\BookCipher.Properties.Resources.resources
+Z:\DS_1920_Gr88\BookCipher\obj\Debug\BookCipher.csproj.GenerateResource.cache
+Z:\DS_1920_Gr88\BookCipher\obj\Debug\BookCipher.csproj.CoreCompileInputs.cache
+Z:\DS_1920_Gr88\BookCipher\obj\Debug\BookCipher.exe
+Z:\DS_1920_Gr88\BookCipher\obj\Debug\BookCipher.pdb
