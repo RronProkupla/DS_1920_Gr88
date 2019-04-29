@@ -35,6 +35,15 @@ namespace BookCipher
             {
                 string word = plainTextArray[i];
                 int index = Array.IndexOf(wordArray, word);
+                
+                   if (index < 0)
+                {
+
+                    string message = "Një nga fjalet e shkruara nuk është në tekst file!";
+                    string title = "Input Error!";
+                    MessageBox.Show(message, title);
+
+                }
             
                 encodedText += index + 1;
                 encodedText += " ";
