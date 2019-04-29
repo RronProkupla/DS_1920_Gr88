@@ -55,14 +55,37 @@ namespace BookCipher
 
         private void decodeBtn_Click(object sender, EventArgs e)
         {
-            
+             string decodedtext = Decrypt(encodedText.Text);
+            decodedText.Text = decodedtext;
         }
 
         
+        static string Decrypt(string encodedText)
+        {
+           string filepath = @"Z:\txt.txt";
+           string textfile = File.ReadAllText(filepath);
+           
+           int[] indexes = encodedText
+                .Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(n => int.Parse(n) - 1)
+                .ToArray();
+
+            string plaintext = "";
+            string[] wordArray = textfile.Split(',');
+         
+            foreach (int index in indexes)
+            {
+                plaintext += wordArray[index] + " ";
+            }
+
+
+            return plaintext.TrimEnd();
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
+           
         }
     }
 }
